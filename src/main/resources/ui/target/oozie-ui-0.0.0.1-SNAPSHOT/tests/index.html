@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+  ~    Licensed to the Apache Software Foundation (ASF) under one or more
+  ~    contributor license agreements.  See the NOTICE file distributed with
+  ~    this work for additional information regarding copyright ownership.
+  ~    The ASF licenses this file to You under the Apache License, Version 2.0
+  ~    (the "License"); you may not use this file except in compliance with
+  ~    the License.  You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OozieDesigner Tests</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <base href="/" />
+<meta name="oozie-designer/config/environment" content="%7B%22modulePrefix%22%3A%22oozie-designer%22%2C%22environment%22%3A%22test%22%2C%22baseURL%22%3A%22/%22%2C%22locationType%22%3A%22none%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22API_URL%22%3A%22http%3A//localhost%3A11002/oozie%22%2C%22PAGE_SIZE%22%3A10%7D%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%22%27none%27%22%2C%22font-src%22%3A%22%27self%27%22%2C%22img-src%22%3A%22%27self%27%22%2C%22media-src%22%3A%22%27self%27%22%2C%22style-src%22%3A%22%27self%27%20%27unsafe-inline%27%22%7D%2C%22APP%22%3A%7B%22LOG_ACTIVE_GENERATION%22%3Afalse%2C%22LOG_VIEW_LOOKUPS%22%3Afalse%2C%22rootElement%22%3A%22%23ember-testing%22%2C%22name%22%3A%22oozie-designer%22%2C%22version%22%3A%220.0.0+%22%7D%2C%22exportApplicationGlobal%22%3Atrue%7D" />
+    
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/oozie-designer.css">
+    <link rel="stylesheet" href="assets/test-support.css">
+
+    
+    
+  </head>
+  <body>
+    
+    <div id="qunit"></div>
+<div id="qunit-fixture"></div>
+
+<div id="ember-testing-container">
+  <div id="ember-testing"></div>
+</div>
+
+
+    <script src="testem.js" integrity=""></script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/test-support.js"></script>
+    <script src="assets/oozie-designer.js"></script>
+    <script src="assets/tests.js"></script>
+    <script src="assets/test-loader.js"></script>
+
+    
+    <script>Ember.assert('The tests file was not loaded. Make sure your tests index.html includes "assets/tests.js".', EmberENV.TESTS_FILE_LOADED);</script>
+  </body>
+</html>
